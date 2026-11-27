@@ -4,14 +4,18 @@
 
 ## 安装
 
-在已安装 Git 的 macOS 或 Linux 终端执行以下命令。私有仓库需要先通过 GitHub 身份验证并具有读取权限。
+这是公开仓库，无需登录 GitHub。把下面这句话复制到 Codex：
+
+> 请从 https://github.com/black605/project-orchestrator 安装 project-orchestrator 到我的 Codex 用户级 skills 目录，保留已有的本地修改，并验证 SKILL.md 和 references/design.md 可读取。
+
+也可以在已安装 Git 的 macOS 或 Linux 终端执行：
 
 ```sh
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 git clone https://github.com/black605/project-orchestrator.git "${CODEX_HOME:-$HOME/.codex}/skills/project-orchestrator"
 ```
 
-打开新的项目聊天，输入 `$project-orchestrator` 调用。如果目录里已有手工安装的同名 Skill，请先核对版本并保留本地修改。
+安装后打开新的 Codex 聊天，输入 `$project-orchestrator` 并描述想做的项目。
 
 ## 第一次启动
 
